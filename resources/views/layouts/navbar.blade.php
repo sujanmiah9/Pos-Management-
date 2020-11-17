@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-    <a class="navbar-brand mr-1" href="index.html">Acix Sales Pro</a>
+<a class="navbar-brand mr-1" href="{{url('/')}}">Pos System</a>
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
     <i class="fa fa-bars"></i>
     </button>
@@ -36,15 +36,15 @@
         <i class="fa fa-flash fa-fw"></i>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-        <a class="dropdown-item" href="products.html"> <i class="fa fa-tag"></i> All Products</a>
-        <a class="dropdown-item" href="product-types.html"> <i class="fa fa-tags"></i> Product Types</a>
-        <a class="dropdown-item" href="product-vendors.html"> <i class="fa fa-user"></i> Product Vendors</a>
-        <a class="dropdown-item" href="product-brands.html"> <i class="fa fa-industry"></i> Product Brands</a>
+        <a class="dropdown-item" href="{{route('view.product')}}"> <i class="fa fa-tag"></i> All Products</a>
+        <a class="dropdown-item" href="{{route('view.producttype')}}"> <i class="fa fa-tags"></i> Product Types</a>
+        <a class="dropdown-item" href="{{route('view.vendor')}}"> <i class="fa fa-user"></i> Product Vendors</a>
+        <a class="dropdown-item" href="{{route('view.brand')}}"> <i class="fa fa-industry"></i> Product Brands</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="revenue.html"> <i class="fa fa-money"></i> Revenue</a>
-        <a class="dropdown-item" href="improvements.html"> <i class="fa fa-rocket"></i> Improvements</a>
+        <a class="dropdown-item" href="{{route('revenue')}}"> <i class="fa fa-money"></i> Revenue</a>
+        <a class="dropdown-item" href="{{route('improvement')}}"> <i class="fa fa-rocket"></i> Improvements</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="accounts.html"> <i class="fa fa-dollar"></i> Accounts</a>
+        <a class="dropdown-item" href="{{route('accounts')}}"> <i class="fa fa-dollar"></i> Accounts</a>
         </div>
     </li>
     <li class="nav-item dropdown no-arrow ml-3">
@@ -67,9 +67,9 @@
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
         <div class="dropdown-header">Rao Ahmed</div>
-        <a class="dropdown-item" href="profile.html"> <i class="fa fa-user"></i> Profile</a>
+        <a class="dropdown-item" href="{{route('profile')}}"> <i class="fa fa-user"></i> Profile</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#"> <i class="fa fa-cog"></i> Settings</a>
+        <a class="dropdown-item" href="{{route('change.pass')}}"> <i class="fa fa-cog"></i> Change password</a>
         <a class="dropdown-item" href="history.html"> <i class="fa fa-line-chart"></i> Activity Log</a>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"> <i class="fa fa-power-off"></i> Logout</a>

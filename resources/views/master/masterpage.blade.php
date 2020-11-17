@@ -42,5 +42,14 @@
 <script src="{{asset('assets')}}/js/chart.min.js"></script>
 <script src="{{asset('assets')}}/js/rc-pos.min.js"></script>
 <script src="{{asset('assets')}}/js/chart-area-demo.js"></script>
+<script src="{{asset('assets')}}/js/jquery.dataTables.js"></script>
+<script src="{{asset('assets')}}/js/dataTables.bootstrap4.js"></script>
+<script src="{{asset('assets')}}/js/rc-pos.min.js"></script>
+<script src="{{asset('assets')}}/js/datatables-demo.js"></script>
+<script src="{{asset('assets')}}/js/chart-area-demo.js"></script>
+<script src="{{asset('assets')}}/js/chart-bar-demo.js"></script>
+<script src="{{asset('assets')}}/js/chart-pie-demo.js"></script>
 </body>
 </html>
+<script src="js/jquery.min.js"></script>
+    
