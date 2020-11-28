@@ -35,7 +35,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
         <a class="dropdown-item" href="{{route('check.sale')}}"> <i class="fa fa-fw fa-table"></i> Check Sales</a>
-        <a class="dropdown-item" href="" data-toggle="modal" data-target="#addSaleModal"> <i class="fa fa-fw fa-plus"></i> Record New Sale</a>
+        <a class="dropdown-item" href="{{route('create.sale')}}"> <i class="fa fa-fw fa-plus"></i> Record New Sale</a>
         </div>
     </li>
     <li class="nav-item dropdown">
@@ -47,7 +47,7 @@
         </span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductModal"> <i class="fa fa-plus"></i> Add New Product</a>
+        <a class="dropdown-item" href="{{route('create.product')}}" > <i class="fa fa-plus"></i> Add New Product</a>
         <a class="dropdown-item" href="{{route('view.product')}}"> <i class="fa fa-tags"></i> All Products</a>
         </div>
     </li>
@@ -60,7 +60,7 @@
         </span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductTypeModal"> <i class="fa fa-plus"></i> Add New Type</a>
+        <a class="dropdown-item" href="{{route('create.productType')}}"> <i class="fa fa-plus"></i> Add New Type</a>
         <a class="dropdown-item" href="{{route('view.producttype')}}"> <i class="fa fa-tags"></i> All Product Types</a>
         </div>
     </li>
@@ -73,7 +73,7 @@
         </span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-user"></i> Add New Vendor</a>
+        <a class="dropdown-item" href="{{route('create.vendor')}}"> <i class="fa fa-user"></i> Add New Vendor</a>
         <a class="dropdown-item" href="{{route('view.vendor')}}"> <i class="fa fa-fw fa-users"></i> All Vendors</a>
         </div>
     </li>
@@ -86,7 +86,7 @@
         </span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductBrandModal"> <i class="fa fa-industry"></i> Add New Brand</a>
+        <a class="dropdown-item" href="{{route('create.brand')}}"> <i class="fa fa-industry"></i> Add New Brand</a>
         <a class="dropdown-item" href="{{route('view.brand')}}"> <i class="fa fa-fw fa-industry"></i> All Brands</a>
         </div>
     </li>

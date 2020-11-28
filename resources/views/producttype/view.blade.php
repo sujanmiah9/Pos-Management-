@@ -8,6 +8,11 @@
         </li>
         <li class="breadcrumb-item active">Product Types</li>
         </ol>
+        @if (session('message'))
+            <div class="alert alert-success">
+                {{session('message')}}
+            </div>
+        @endif
         <!-- Page Content -->
         <!-- DataTables Example -->
         <div class="card mb-3">

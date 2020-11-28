@@ -21,14 +21,14 @@
         <i class="fa fa-plus fa-fw"></i>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addSaleModal"> <i class="fa fa-money"></i> New Sale</a>
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductModal"> <i class="fa fa-tag"></i> New Product</a>
+        <a class="dropdown-item" href="{{route('create.sale')}}"> <i class="fa fa-money"></i> New Sale</a>
+        <a class="dropdown-item" href="{{route('create.product')}}"> <i class="fa fa-tag"></i> New Product</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductTypeModal"> <i class="fa fa-tags"></i> New Product Type</a>
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductVendorModal"> <i class="fa fa-user"></i> New Product Vendor</a>
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addProductBrandModal"> <i class="fa fa-industry"></i> New Product Brand</a>
+        <a class="dropdown-item" href="{{route('create.productType')}}""> <i class="fa fa-tags"></i> New Product Type</a>
+        <a class="dropdown-item" href="{{route('create.vendor')}}"> <i class="fa fa-user"></i> New Product Vendor</a>
+        <a class="dropdown-item" href="{{route('create.brand')}}"> <i class="fa fa-industry"></i> New Product Brand</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#addExpenseAccountModal"> <i class="fa fa-dollar"></i> New Expense Account</a>
+        <a class="dropdown-item" href="" data-toggle="modal" data-target="#addExpenseAccountModal"> <i class="fa fa-dollar"></i> New Expense Account</a>
         </div>
     </li>
     <li class="nav-item dropdown no-arrow mx-1">
